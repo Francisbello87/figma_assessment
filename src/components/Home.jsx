@@ -32,15 +32,18 @@ const Home = () => {
               Easily host and share events with your friends <br />
               across any social media
             </p>
-           
-            <motion.button
+         
+           <motion.button
               whileTap={{ scale: 1.1 }}
               whileInView={{x: [100, 0], opacity: [0, 1]}}
+              whileHover={{background:['hsl(292, 90%, 35%)', 'hsl(258, 80%, 63%)']}}
               transition={{ duration: 0.5, ease: "easeInOut" }}
-              className=" hover:drop-shadow-md   hover:bg-gradient-to-l from-[#E87BF8] to-[#8456EC] font-bold text-xl font-Helvetica bg-gradient-to-r from-[#8456EC] to-[#E87BF8] py-4 px-16 rounded-[10px] my-14 "
+              className=" hover:drop-shadow-md    font-bold text-xl font-Helvetica  bg-gradient-to-r from-[#8456EC] to-[#E87BF8] py-4 px-16 rounded-[10px] my-14 "
             >
               🎉 Create my event
             </motion.button>
+          
+            
           </div>
         </div>
       ) : (
@@ -64,7 +67,7 @@ const Home = () => {
             <motion.button
               whileTap={{ scale: 1.1 }}
               transition={{ duration: 0.2, ease: "easeInOut" }}
-              className=" hover:drop-shadow-md flex items-center justify-center md:text-2xl  hover:bg-gradient-to-l from-[#E87BF8]   to-[#8456EC]  text-xs  font-Helvetica bg-gradient-to-r from-[#8456EC] to-[#E87BF8] md:py-4 md:px-8 px-4 py-2 w-[150px] md:w-[70%] text-left rounded-[10px] md:my-10 "
+              className=" hover:drop-shadow-md flex items-center justify-center md:text-2xl  text-xs  font-Helvetica bg-gradient-to-r from-[#8456EC] to-[#E87BF8] md:py-4 md:px-8 px-4 py-2 w-[150px] md:w-[70%] text-left rounded-[10px] md:my-10 "
             >
               🎉 Create my event
             </motion.button>
