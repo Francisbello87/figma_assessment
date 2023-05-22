@@ -28,7 +28,7 @@ const Home = () => {
               </span>{" "}
               <br /> <br /> had events.
             </h1>
-            <p className="text-[#4f4f4f] text-2xl text-center w-full font-Helvetica">
+            <p className="text-[#4f4f4f] text-2xl text-right w-full font-Helvetica">
               Easily host and share events with your friends <br />
               across any social media
             </p>
